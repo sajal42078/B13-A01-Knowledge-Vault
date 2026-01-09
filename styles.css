@@ -54,3 +54,52 @@ nav .menu-nav ul{
 .btn-container{
     margin: 24px 120px 24px 346px;
 }
+#banner{
+       background-image: url("./assets/hero-bg.png");
+}
+#banner .banner-heading{
+    margin: 115px 120px 263.5px;
+    border: 1px solid red;
+}
+.banner-heading .radious{
+    margin: 0 565px 260px 565px;
+    width: 229;
+}
+
+#banner .banner-all{
+    align-items: center;
+    border: 1px solid red;
+}
+
+#banner .banner-all .early{
+    width: 14%;
+    max-width: 229px;
+    margin: 115px auto 16px;
+}
+
+.banner-all .heading{
+    width: 48%;
+    max-width: 770px;
+    margin: 51px 450px 76px;
+}
+
+.banner-all .buton button{
+
+    padding: 12.5px 16px;
+    background-color: #30B868;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #FFFFFF;
+    gap: 20px;
+}
+.banner-all .buton{
+    width: 29%;
+    max-width: 465px;
+    text-align: center;
+}
+.banner-all .early{
+    box-sizing: border-boxk;
+    padding: 8px 12 px;
+}
