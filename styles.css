@@ -103,3 +103,91 @@ nav .menu-nav ul{
     box-sizing: border-boxk;
     padding: 8px 12 px;
 }
+#note{
+    margin: 100px 120px 332px;
+ 
+    text-align: center;
+    
+}
+
+#note .note-text .p-one {
+    font-weight: 700;
+    color: #001931;
+    font-size: 48px;
+}
+#note .note-text .p-two{
+    color: #627382;
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+    max-width: 90%;
+    width: 1360px;
+    height: 300px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#note .note-container .card .card-info p {
+       color: #001931;
+      font-size: 24px;
+
+}
+.card-info img{
+    background: rgba(249, 85, 85, 1);
+    border-radius: 20px;
+}
+.card .card-info {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+#note .note-container .card .card-info .two{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#second-brain .brain-container{
+    margin: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#second-brain .brain-container .image img{
+    width: 600px;
+}
+#second-brain .brain-container .text{
+    margin: 120px 0 60px;
+}
+#second-brain .brain-container .text .text-one .solution {
+    margin-bottom: 16px;
+    line-height: 20px;
+    color: #30B868;
+}
+.text .text-one {
+    margin: 1px 0 10px 60px;
+}
+.text .text-one .heading {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 16px 0;
+}
+.text .text-one .info{
+    font-weight: 400;
+    color:#627382;
+    line-height: 20px;
+}
+.short-info{
+    margin: 40px 0 102px 60px;
+}
+.short{
+    display: flex;
+}
+.short p{
+    color: #001931;
+    font-size: 16px;
+}
