@@ -59,7 +59,6 @@ nav .menu-nav ul{
 }
 #banner .banner-heading{
     margin: 115px 120px 263.5px;
-    border: 1px solid red;
 }
 .banner-heading .radious{
     margin: 0 565px 260px 565px;
@@ -68,7 +67,7 @@ nav .menu-nav ul{
 
 #banner .banner-all{
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid;
 }
 
 #banner .banner-all .early{
@@ -88,7 +87,6 @@ nav .menu-nav ul{
     padding: 12.5px 16px;
     background-color: #30B868;
     border: none;
-    padding: 12.5px 16px;
     border-radius: 4px;
     font-weight: 600;
     color: #FFFFFF;
@@ -190,4 +188,54 @@ nav .menu-nav ul{
 .short p{
     color: #001931;
     font-size: 16px;
+}
+
+.content-third{
+    width: 85%;
+    max-width: 1360px;
+    margin: 2px 120px 120px 120px;
+    /* border: 1px solid red; */
+     background-color: #FFFFFF;
+}
+.content-third .h{
+    margin: 80px 40px 24px;
+}
+.content-third .h .bold{
+    margin-bottom: 16px;
+    font-size: 40px;
+    text-align: center;
+    font-style: Bold;
+    font-weight: 700;
+    color: #001931;
+}
+.content-third .h .paragraph{
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+    text-align: center;
+}
+
+.content-third .b{
+    margin: 24px 40px 80px ;
+}
+.content-third .b .btn{
+    margin: none;
+    text-align: center;
+}
+.b .btn button{
+    padding: 12.5px 16px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #FFFFFF;
+    gap: 20px;
+}
+
+.b .p{
+    text-align: center;
+    font-weight: 400;
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
 }
