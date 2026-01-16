@@ -71,9 +71,15 @@ nav .menu-nav ul{
 }
 
 #banner .banner-all .early{
-    width: 14%;
-    max-width: 229px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    /* max-width: 229px; */
     margin: 115px auto 16px;
+    padding-left: 10px;
 }
 
 .banner-all .heading{
@@ -81,7 +87,26 @@ nav .menu-nav ul{
     max-width: 770px;
     margin: 51px 450px 76px;
 }
+.banner-all .heading h1{
+    color: #FFFFFF;
+    font-size: 52px;
+    line-height: 84px;
+    font-weight: 700;
+}
+.banner-all .heading h1 .clr{
+    color: #30B868;
+}
+.banner-all .heading p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
 
+.banner-all .buton{
+    justify-content: center;
+    margin: 32px 447.5px 179px;
+}
 .banner-all .buton button{
 
     padding: 12.5px 16px;
@@ -91,11 +116,6 @@ nav .menu-nav ul{
     font-weight: 600;
     color: #FFFFFF;
     gap: 20px;
-}
-.banner-all .buton{
-    width: 29%;
-    max-width: 465px;
-    text-align: center;
 }
 .banner-all .early{
     box-sizing: border-boxk;
@@ -238,4 +258,24 @@ nav .menu-nav ul{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
+}
+
+footer{
+    background: rgba(0, 25, 49, 1);
+}
+
+.f-part .social{
+    width: 85%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    margin: 120px 120px 80px;
+    color: #FFFFFF;
+}
+.f-part .copyright{
+    margin: 80px 120px 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: small;
+    color: #FFFFFF;
 }
